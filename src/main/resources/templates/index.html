@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.w3.org/1999/xhtml">
 <head th:replace="fragment/header :: head">
-    <title>User Registration</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <title>home</title>
 </head>
 <body>
-<div class="login-page">
-    <div class="form">
-        <form class="register-form">
-            <input type="text" placeholder="name"/>
-            <input type="password" placeholder="password"/>
-            <input type="password" placeholder="ConfirmPassword"/>
-            <button>Register</button>
-            <p class="message">Already registered? <a href="#">Log in</a></p>
-        </form>
-
+<div class="welcome-page-container">
+    <div>
+        <h1 class="welcome-title">Welcome To Our Page</h1>
     </div>
+    <div>
+        <h3 class="register-title"><a th:href="@{/register}"></a>Register Here!</h3>
+    </div>
+
 </div>
 </body>
 </html>

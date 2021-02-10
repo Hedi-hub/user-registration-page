@@ -32,4 +32,9 @@ public class UserService {
         return (List<User>) userRepository.findAll();
     }
 
+    public User getUserById(Integer id){
+        return userRepository.findById(id).get();
+    }
+
+
 }

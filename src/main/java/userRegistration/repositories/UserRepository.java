@@ -8,4 +8,5 @@ import userRegistration.models.User;
 public interface UserRepository extends CrudRepository <User, Integer>{
 
     User findById(int id);
+
 }

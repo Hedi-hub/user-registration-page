@@ -101,3 +101,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* INDEX START */
+.welcome-page-container{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+}
+.welcome-title{
+    color: #dbb50b;
+}
+/* INDEX END */

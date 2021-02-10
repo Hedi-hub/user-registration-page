@@ -14,13 +14,13 @@ public class User {
     @Id
     private int id;
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="user_name")
+    @Column(name="user_name", unique = true, length = 20)
     @NotNull
     private String name;
-    @Column(name = "user_password")
+    @Column(name = "user_password", length = 64)
     @NotNull
     private String password;
-    @Column(name="confirm_password")
+    @Column(name="confirm_password", length = 64)
     @NotNull
     private String confirmPassword;
 
