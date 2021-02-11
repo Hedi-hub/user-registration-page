@@ -6,10 +6,10 @@
 <body>
 <div class="login-page">
     <div class="form">
-        <form th:action="@{/}" class="register-form">
-            <input type="text" placeholder="name"/>
-            <input type="password" placeholder="password"/>
-            <input type="password" placeholder="ConfirmPassword"/>
+        <form th:action="@{/register-now}" class="register-form">
+            <input type="text" name="userName" placeholder="name"/>
+            <input type="password" name="userPass" placeholder="password"/>
+            <input type="password" name="userPassConfirm" placeholder="ConfirmPassword"/>
             <button>Register</button>
             <p class="message">Already registered? <a href="#">Log in</a></p>
         </form>

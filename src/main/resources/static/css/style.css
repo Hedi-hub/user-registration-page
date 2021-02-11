@@ -107,9 +107,16 @@ body {
     width: 100%;
     background-color: #000000;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
 }
 .welcome-title{
     color: #dbb50b;
+    margin-top: 350px;
+}
+.register-title{
+    color: #dbb50b;
+    font-weight: bold;
 }
 /* INDEX END */

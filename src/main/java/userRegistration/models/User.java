@@ -12,8 +12,9 @@ import java.util.Objects;
 public class User {
 
     @Id
-    private int id;
     @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
+
     @Column(name="user_name", unique = true, length = 20)
     @NotNull
     private String name;
